@@ -1,8 +1,33 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url("/images/background.jpg") center center fixed;
+  background-size: cover;
 }
-
-a {
-  color: #00B7FF;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+nav {
+  background: linear-gradient(rgba(40, 40, 40, 0.35), rgba(0, 0, 0, 0.35) ) !important;
+  /*background: rgba(0, 0, 0, 0.35);*/
+}
+.brand-logo {
+  margin-left: 20px;
+  letter-spacing: 10px;
+  font-size: .2rem;
+  font-family: Share;
+}
+main {
+  padding-top: 100px;
+  flex: 1 0 auto;
+  background: rgba(0, 0, 0, .25);
+}
+.clear {
+  opacity: .8;
+}
+.clear:hover {
+  opacity: 1;
+}
+footer {
+  background: rgba(0, 0, 0, .25)
 }
